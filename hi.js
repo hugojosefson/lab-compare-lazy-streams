@@ -1,7 +1,11 @@
 'use strict';
 
-const filenameArray = require('./lib/filename-array');
-const promiseOfFileContents = require('./lib/promise-of-file-contents');
+const filenameArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => `000${i}.json`);
+
+const promiseOfFileContents = file => new Promise((resolve) => {
+    console.log(`Reading ${file} from disk now... It takes 4 seconds...`);
+    setTimeout(() => resolve(`Contents of ${file} is blah, blah, blah.`), 4000);
+});
 
 // ---
 

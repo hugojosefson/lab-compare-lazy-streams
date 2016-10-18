@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "highland": "^2.10.0",
-    "ramda": "^0.22.1",
     "rxjs": "^5.0.0-rc.1"
   },
   "engines": {
