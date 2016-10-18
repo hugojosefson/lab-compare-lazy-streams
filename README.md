@@ -49,4 +49,13 @@ contents).
 You should look for log outputs which show you when the implementation forces "file loading" to
 occur. The one that only loads the first file when asked for the first data, is truly lazy in this
 example..!
-  
+
+## Help!
+
+Am I missing anything? Should this be possible with RxJS or another lib?
+
+Please [file an issue](https://github.com/hugojosefson/lab-compare-lazy-streams/issues), [pull
+request](https://github.com/hugojosefson/lab-compare-lazy-streams/pulls) or contact me on Twitter
+[@hugojosefson](https://twitter.com/hugojosefson).
+
+Thanks for playing :)
