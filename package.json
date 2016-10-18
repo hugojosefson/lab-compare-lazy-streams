@@ -1,0 +1,24 @@
+{
+  "name": "lab-compare-lazy-streams",
+  "version": "1.0.0",
+  "description": "Comparing laziness of stream libs",
+  "scripts": {
+    "start": "cat README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lazy",
+    "streams",
+    "observable"
+  ],
+  "author": "Hugo Josefson <hugo@josefson.org>",
+  "license": "ISC",
+  "dependencies": {
+    "highland": "^2.10.0",
+    "ramda": "^0.22.1",
+    "rxjs": "^5.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
