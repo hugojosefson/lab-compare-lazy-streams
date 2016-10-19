@@ -13,8 +13,7 @@ const Rx = require('rxjs/Rx');
 const files = Rx.Observable.from(filenameArray);
 
 const fileContents = files
-    .map(file => promiseOfFileContents(file))
-    .mergeAll();
+    .concatMap(file => promiseOfFileContents(file));
 
 const oneFile = fileContents.take(1);
 oneFile.subscribe(console.log.bind(console));
